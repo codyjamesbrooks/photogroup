@@ -1,4 +1,4 @@
-- [ ] Deploy
+- [x] Deploy
 - [ ] I can upload a single image
 - [ ] Style
 - [ ] I can upload a directory of images

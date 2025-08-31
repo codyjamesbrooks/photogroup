@@ -9,6 +9,10 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = True
 
+class ProductionConfig(Config):
+    DEBUG = False
+
 config = {
-  'development': DevelopmentConfig
+  'development': DevelopmentConfig,
+  'production': ProductionConfig
 }
