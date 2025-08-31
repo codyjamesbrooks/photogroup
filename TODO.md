@@ -1,0 +1,5 @@
+- [ ] Deploy
+- [ ] I can upload a single image
+- [ ] Style
+- [ ] I can upload a directory of images
+- [ ] An image is viewed, and classified
