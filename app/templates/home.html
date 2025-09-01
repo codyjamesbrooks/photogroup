@@ -3,5 +3,9 @@
 {% block title %}Photo/Groups{% endblock %}
 
 {% block content %}
-  <h1>Group Those Photos</h1>
+  <h1>Welcome to Photo/Groups</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <button type="submit">Upload Image</button>
+  </form>
 {% endblock %}

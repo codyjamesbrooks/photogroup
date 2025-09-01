@@ -1,7 +1,10 @@
 import os
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
+    SECRET_KEY = os.getenv('SECRET_KEY')
+    UPLOAD_FOLDER = os.getenv('UPLOAD_FOLDER')
+    ALLOWED_EXTENSIONS={'png', 'jpg'}
+
     @staticmethod
     def init_app(app):
         pass

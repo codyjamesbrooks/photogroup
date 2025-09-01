@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}Photo/Groups{% endblock %}
+
+{% block content %}
+  <h1>Uploaded Image</h1>
+  <img src="{{ url_for('main.uploads', filename=filename) }}" alt="Uploaded Image" lazy="loading">
+{% endblock %}
